@@ -1,10 +1,10 @@
 # AI Job Search and Resume Automation
 
-A sanitized portfolio version of a personal AI workflow automation project built with n8n. The workflow automates job discovery, duplicate tracking, LLM-assisted resume tailoring, ATS-friendly PDF generation, Google Drive storage, and daily email summaries.
+I built this project to reduce the repetitive work involved in job searching. The workflow finds recent job postings, checks whether they were already processed, uses an LLM to help tailor resume content, generates ATS-friendly PDF resumes, stores the outputs in Google Drive, and sends a daily email summary for review.
 
-This project is designed to demonstrate workflow automation, product thinking, API integrations, LLM orchestration, structured document generation, database tracking, and end-to-end debugging.
+The project is built with n8n, Supabase, Google Gemini, Google Drive, Gmail, JavaScript, and LaTeX. It is a personal automation project, not a commercial product or auto-apply tool.
 
-> This is a personal automation project, not a commercial job application product. It does not auto-apply to jobs. The workflow prepares resume drafts and job/resume links, while the final review and application decision stay human-in-the-loop.
+The final application decision stays human-reviewed. The workflow prepares job-specific resume drafts and organized links, but it does not submit applications automatically.
 
 ## Problem It Solves
 
@@ -99,7 +99,7 @@ Send Gmail Summary
 
 ## Proof of Workflow
 
-The screenshots below show the workflow running successfully and producing real output. Sensitive information such as contact details, private links, and account details has been removed or blurred.
+The screenshots below show the workflow running successfully and producing real outputs. I removed or covered private details before publishing the screenshots.
 
 ### Successful n8n Execution
 
@@ -214,6 +214,14 @@ At a high level, you need:
 This repository is sanitized for public portfolio use. It does not include real API keys, private credentials, personal resume content, Google Drive links, Supabase URLs, or private job-board credentials.
 
 Use .env.example as a template and keep real credentials in a private .env file or n8n credentials manager.
+
+## What I Learned
+
+- Multi-step AI workflows need careful item tracking across nodes, especially when processing multiple jobs in one run.
+- LLM output needs structure and validation before it can be used for document generation.
+- Persistent storage is important for avoiding repeated processing.
+- API limits, retries, and fallback behavior need to be planned early.
+- Human review is still important when generating resumes or application materials.
 
 ## Future Improvements
 
