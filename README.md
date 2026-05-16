@@ -99,7 +99,7 @@ Send Gmail Summary
 
 ## Proof of Workflow
 
-The screenshots below show the workflow running successfully and producing real outputs. I removed or covered private details before publishing the screenshots.
+The screenshots below show the workflow running successfully and producing real outputs.
 
 ### Successful n8n Execution
 
@@ -232,7 +232,3 @@ Use .env.example as a template and keep real credentials in a private .env file 
 - Add stronger observability for failed workflow runs
 - Add automated tests for parsing and LaTeX generation scripts
 - Add support for multiple LLM providers
-
-## Disclaimer
-
-This is a sanitized portfolio project based on a personal automation workflow. It is intended to demonstrate technical implementation, workflow design, and product thinking. It should be adapted carefully before use with real job boards, credentials, or personal data.
