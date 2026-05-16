@@ -100,7 +100,7 @@ Send Gmail Summary
 The workflow sends a daily email summary with generated resume links and related job links.
 
 ![Daily email summary](assets/email-summary-20-jobs.png)
-
+```text
 ## Repository Structure
 
 ai-job-search-resume-automation/
@@ -135,6 +135,7 @@ ai-job-search-resume-automation/
     generated-resume-preview.png
   .env.example
   .gitignore
+```
 
 ## Product Decisions
 
