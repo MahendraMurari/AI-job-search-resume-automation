@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
+secrets/
+credentials/
+private/
+
+# Original unsanitized exports
+*n8n-workflow-original*
+*private*
+*secret*
+*credentials*
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Generated outputs
+outputs/
+generated-resumes/
+*.pdf
+
+# Node/Python artifacts if used later
+node_modules/
+__pycache__/
+.venv/
