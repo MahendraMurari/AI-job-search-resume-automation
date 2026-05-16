@@ -95,11 +95,33 @@ Send Gmail Summary
 11. The job is stored in Supabase to avoid future duplicate processing.
 12. A Gmail summary is sent with each company, role, job link, and resume link.
 
-## Example Output
+## Proof of Workflow
 
-The workflow sends a daily email summary with generated resume links and related job links.
+The screenshots below show the workflow running successfully and producing real output. Sensitive information such as contact details, private links, and account details has been removed or blurred.
 
-![Daily email summary](assets/email-summary-20-jobs.png)
+### Successful n8n Execution
+
+This execution shows the workflow running successfully from the daily trigger through job scraping, duplicate filtering, LLM resume tailoring, PDF generation, Drive upload, and Gmail summary delivery.
+
+![Successful n8n workflow execution](assets/workflow-canvas.png)
+
+### Daily Email Summary
+
+The workflow sends a daily email summary with generated resume links and related job links, keeping the final application decision human-reviewed.
+
+![Daily email summary with resume links](assets/email-summary-20-jobs.png)
+
+### Generated Resume PDFs
+
+Generated resume PDFs are saved in Drive so they can be reviewed, opened, and used for applications.
+
+![Generated resume PDFs in Drive](assets/drive-output-folder.png)
+
+### Generated Resume Preview
+
+The final output is an ATS-friendly resume PDF generated from structured LLM output and rendered through LaTeX.
+
+![Generated ATS resume preview](assets/generated-resume-preview.png)
 ```text
 ## Repository Structure
 
