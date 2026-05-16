@@ -1,0 +1,50 @@
+{
+  "name": "AI Job Search and Resume Automation - Sanitized",
+  "description": "Sanitized portfolio version of an n8n workflow for job discovery, duplicate tracking, LLM-assisted resume tailoring, ATS-friendly PDF generation, Google Drive upload, and Gmail summary notifications.",
+  "version": "sanitized-public-template",
+  "notes": [
+    "This file is a sanitized placeholder workflow for public portfolio review.",
+    "The original private n8n export contained live credentials, private document IDs, API tokens, and personal resume data.",
+    "Before using this workflow, replace all placeholders with your own n8n credentials and environment values.",
+    "Do not commit real API keys, Supabase keys, Google Drive IDs, email addresses, or private resume content."
+  ],
+  "required_placeholders": {
+    "APIFY_ACTOR_ID": "{{APIFY_ACTOR_ID}}",
+    "APIFY_TOKEN": "{{APIFY_TOKEN}}",
+    "SUPABASE_URL": "{{SUPABASE_URL}}",
+    "SUPABASE_ANON_KEY": "{{SUPABASE_ANON_KEY}}",
+    "GOOGLE_DOC_RESUME_ID": "{{GOOGLE_DOC_RESUME_ID}}",
+    "GOOGLE_DRIVE_FOLDER_ID": "{{GOOGLE_DRIVE_FOLDER_ID}}",
+    "EMAIL_TO": "{{EMAIL_TO}}",
+    "GEMINI_API_KEY": "{{GEMINI_API_KEY}}"
+  },
+  "workflow_steps": [
+    "Daily Schedule Trigger",
+    "Workflow Configuration",
+    "Get Resume from Google Docs",
+    "Build LinkedIn Search URL",
+    "Start Apify Job Scraper Run",
+    "Poll Apify Run Status",
+    "Fetch Apify Dataset Results",
+    "Parse and Normalize Job Results",
+    "Limit Jobs",
+    "Filter Duplicates with Supabase",
+    "Prepare LLM Prompt",
+    "ATS Resume Optimizer Agent",
+    "Merge Job Metadata",
+    "Build LaTeX Resume",
+    "Compile LaTeX to PDF",
+    "Prepare PDF Metadata",
+    "Upload PDF to Google Drive",
+    "Share PDF",
+    "Store Job Record in Supabase",
+    "Build Email Summary",
+    "Send Gmail Message"
+  ],
+  "implementation_notes": {
+    "n8n": "Import the private workflow into your own n8n instance and replace sensitive values with environment variables or n8n credentials before sharing.",
+    "scripts": "The sanitized code-node logic is included separately in the scripts directory for easier review.",
+    "database": "A sample Supabase schema is included in samples/sample-supabase-schema.sql.",
+    "prompts": "A sanitized prompt template is included in docs/prompts.md."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Machine Learning Engineer",
+  "company": "Example AI Company",
+  "location": "Remote",
+  "postedAt": "2026-05-16",
+  "employmentType": "Full-time",
+  "seniorityLevel": "Mid-Senior level",
+  "jobLink": "https://www.linkedin.com/jobs/view/example-job-id",
+  "jobDescription": "We are looking for a Machine Learning Engineer with experience in Python, PyTorch, LLM applications, retrieval systems, APIs, model evaluation, and production deployment."
+}
