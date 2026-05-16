@@ -117,6 +117,12 @@ Generated resume PDFs are saved in Drive so they can be reviewed, opened, and us
 
 ![Generated resume PDFs in Drive](assets/drive-output-folder.png)
 
+### Supabase Job Tracking
+
+Processed jobs are stored in Supabase with normalized job keys so the workflow can skip duplicate postings in future runs.
+
+![Supabase jobs table](assets/supabase-jobs-table.png)
+
 ### Generated Resume Preview
 
 The final output is an ATS-friendly resume PDF generated from structured LLM output and rendered through LaTeX.
