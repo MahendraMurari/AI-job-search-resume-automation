@@ -28,43 +28,45 @@ This workflow reduces that repetitive work by preparing job-specific resume draf
 
 ## Workflow Architecture
 
+```text
 Daily Schedule Trigger
-    ↓
+        ↓
 Workflow Configuration
-    ↓
+        ↓
 Build LinkedIn Search URL
-    ↓
+        ↓
 Apify LinkedIn Jobs Scraper
-    ↓
+        ↓
 Poll Job Scraper Status
-    ↓
+        ↓
 Fetch Job Results
-    ↓
+        ↓
 Parse and Normalize Job Data
-    ↓
+        ↓
 Limit Jobs
-    ↓
+        ↓
 Filter Duplicates with Supabase
-    ↓
+        ↓
 Retrieve Base Resume from Google Docs
-    ↓
+        ↓
 Prepare Job + Resume Prompt
-    ↓
+        ↓
 LLM Resume Optimizer
-    ↓
+        ↓
 Merge Job Metadata
-    ↓
+        ↓
 Build LaTeX Resume
-    ↓
+        ↓
 Compile PDF
-    ↓
+        ↓
 Prepare PDF Metadata
-    ↓
+        ↓
 Upload and Share PDF in Google Drive
-    ↓
+        ↓
 Store Processed Job Record
-    ↓
+        ↓
 Send Gmail Summary
+```
 
 ## Tech Stack
 
