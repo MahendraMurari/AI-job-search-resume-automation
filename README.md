@@ -6,19 +6,13 @@ The project is built with n8n, Supabase, Google Gemini, Google Drive, Gmail, Jav
 
 The final application decision stays human-reviewed. The workflow prepares job-specific resume drafts and organized links, but it does not submit applications automatically.
 
-## Why I Built This
+## Why I Built This and The Problem It Solves
 
-When applying for AI and ML roles, two steps usually take the most time: finding roles that actually match my profile and tailoring my resume to each job description.
+When applying for jobs, two steps usually take the most time: finding roles that actually match my profile and tailoring resume to each job description.
 
-Manually preparing 20 targeted applications can easily take 3 or more hours because each role needs to be reviewed, matched against my experience, tracked for duplicates, and followed by a resume update. I built this workflow to reduce that repetitive work while still keeping the final review and application decision in my control.
+Manually searching and preparing 20 targeted applications can easily take 3 to 4 or more hours because each role needs to be reviewed, matched against experience, tracked for duplicates, and followed by a resume update. I built this workflow to reduce that repetitive work while still keeping the final review and application decision in my control.
 
-With this automation, the workflow can prepare a batch of targeted jobs, generate job specific resume drafts, organize the PDF outputs, and send a review email in around 20 minutes. That makes it easier to handle 20 to 40 quality applications more consistently without spending most of the day on searching, formatting, exporting, and tracking.
-
-## Problem It Solves
-
-Manually applying to jobs is repetitive and time-consuming. Each role usually requires reading the job description, identifying relevant keywords, tailoring resume content, exporting a clean PDF, tracking whether the job was already processed, and organizing application materials.
-
-This workflow reduces that repetitive work by preparing job-specific resume drafts and sending a daily summary of application-ready materials.
+With this automation, the workflow can prepare a batch of targeted jobs, generate job specific resume drafts, organize the PDF outputs, and send a review email in around 8 minutes. That makes it easier to handle 20 to 40 quality applications more consistently without spending most of the day on searching, formatting, exporting, and tracking.
 
 ## Key Features
 
