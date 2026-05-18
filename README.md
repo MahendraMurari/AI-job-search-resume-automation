@@ -2,9 +2,9 @@
 
 I built this project to reduce the repetitive work involved in job searching. The workflow finds recent job postings, checks whether they were already processed, uses an LLM to help tailor resume content, generates ATS-friendly PDF resumes, stores the outputs in Google Drive, and sends a daily email summary for review.
 
-The project is built with n8n, Supabase, Google Gemini, Google Drive, Gmail, JavaScript, and LaTeX. 
+The project is built with n8n, Supabase, Google Gemini, Google Drive, Gmail, JavaScript, LaTeX, Docker, and a self hosted VPS setup.
 
-The final application decision stays human-reviewed. The workflow prepares job-specific resume drafts and organized links, but it does not submit applications automatically.
+The final application decision stays human-reviewed. The workflow prepares job-specific resume drafts and organized links.
 
 ## Why I Built This and The Problem It Solves
 
