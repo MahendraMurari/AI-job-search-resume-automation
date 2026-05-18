@@ -6,6 +6,14 @@ The project is built with n8n, Supabase, Google Gemini, Google Drive, Gmail, Jav
 
 The final application decision stays human-reviewed. The workflow prepares job-specific resume drafts and organized links, but it does not submit applications automatically.
 
+## Why I Built This
+
+When applying for AI and ML roles, two steps usually take the most time: finding roles that actually match my profile and tailoring my resume to each job description.
+
+Manually preparing 20 targeted applications can easily take 3 or more hours because each role needs to be reviewed, matched against my experience, tracked for duplicates, and followed by a resume update. I built this workflow to reduce that repetitive work while still keeping the final review and application decision in my control.
+
+With this automation, the workflow can prepare a batch of targeted jobs, generate job specific resume drafts, organize the PDF outputs, and send a review email in around 20 minutes. That makes it easier to handle 20 to 40 quality applications more consistently without spending most of the day on searching, formatting, exporting, and tracking.
+
 ## Problem It Solves
 
 Manually applying to jobs is repetitive and time-consuming. Each role usually requires reading the job description, identifying relevant keywords, tailoring resume content, exporting a clean PDF, tracking whether the job was already processed, and organizing application materials.
@@ -96,6 +104,13 @@ Send Gmail Summary
 10. The PDF is uploaded to Google Drive and shared.
 11. The job is stored in Supabase to avoid future duplicate processing.
 12. A Gmail summary is sent with each company, role, job link, and resume link.
+
+## Impact
+
+- Reduces a manual 20-application preparation workflow from roughly 3+ hours to about 20 minutes of review time.
+- Helps prepare 20 to 40 targeted applications more consistently by automating job discovery, resume drafting, PDF generation, tracking, and summary reporting.
+- Keeps the final decision human-reviewed, so each resume and application can still be checked before submission.
+- Creates a repeatable pipeline for discovering roles, preparing resumes, storing outputs, and reviewing daily results.
 
 ## Proof of Workflow
 
