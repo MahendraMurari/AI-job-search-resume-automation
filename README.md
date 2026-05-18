@@ -145,6 +145,8 @@ Processed jobs are stored in Supabase with normalized job keys so the workflow c
 The final output is an ATS-friendly resume PDF generated from structured LLM output and rendered through LaTeX.
 
 ![Generated ATS resume preview](assets/generated-resume-preview.png)
+![Generated ATS resume preview](assets/generated-resume-preview.2.png)
+
 ```text
 ## Repository Structure
 
